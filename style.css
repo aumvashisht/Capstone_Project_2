@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#lavender{
+    background-color: #E6E6FA;
+}
+#linkedin{
+    text-decoration: none;
+    color: white;
+}
+#github{
+    text-decoration: none;
+    color: gray;
+}
+li{
+    list-style: none;
+}
+#github-repo{
+    color: #bc57c3;
+    text-decoration: none;
+}
+#project{
+    font-weight: bolder;
+}
+#bold{
+    font-weight: bold;
+}
+
+#about-me{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1.5fr;
+    text-align: center;
+    background-color: #e6d1f1;
+    font-size:larger;
+    gap: 0px;
+    margin-bottom: 0%;
+}
+.heading{
+    margin: 20px 0px;
+    grid-area: 1/1/1/3;
+    text-align: center;
+}
+
+#contact{
+    background-color: #E6d3F1;
+    color: white;
+    margin-top: 0%;
+}
